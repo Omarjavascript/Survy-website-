@@ -9,6 +9,7 @@
     --color--bg: #f9f9fb;
     --color--bg--alt: #ffffff;
     --color-form: #eff0f3;
+    --color-bg-zhry: #7616ec;
     /*Text Color*/
     --color--white: var(--color--bg--alt);
     --color--main: var(--color--primary);
@@ -16,6 +17,7 @@
     --color--secondry: #62636c;
     --color--black: #000000;
     --color--zhary: #7616ec;
+    --color--text--white: #ffffff;
     /*Borders*/
     --border--width-sm: 1px;
     --border--width--md: 2px;
