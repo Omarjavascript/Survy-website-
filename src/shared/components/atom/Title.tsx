@@ -3,7 +3,7 @@ import React from "react";
 interface Props {
   children?: React.ReactNode;
   size?: "md" | "sm" | "lg";
-  variant?: "primary" | "secondry" | "zahry";
+  variant?: "primary" | "secondry" | "zahry" | "black";
   center?: boolean;
   className?: string;
 }
@@ -23,6 +23,7 @@ export default function Title({
     primary: "ds-text-primary",
     secondry: "ds-text-secondry",
     zahry: "ds-text-zhry",
+    black: "ds-text-black",
   };
   const isCenter = center ? "text-center" : "";
   return (
