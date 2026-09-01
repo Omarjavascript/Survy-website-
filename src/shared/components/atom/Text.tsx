@@ -3,7 +3,7 @@ interface Props {
   children?: React.ReactNode;
   className?: string;
   size?: "md" | "lg" | "sm";
-  variant?: "primary" | "secondry" | "disabeld";
+  variant?: "primary" | "secondry" | "disabeld" | "ramadi";
   center?: boolean;
 }
 export default function Text({
@@ -18,6 +18,7 @@ export default function Text({
     primary: "ds-text-primary ",
     secondry: "ds-text-secondry",
     disabeld: "ds-text-disabeld",
+    ramadi: "ds-text-ramadi",
   };
   const sizes = {
     md: "text-md",

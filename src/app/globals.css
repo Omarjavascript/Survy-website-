@@ -26,7 +26,7 @@
 }
 /*Layout*/
 .ds-container {
-  width: 50%;
+  width: auto;
   margin-inline: auto;
   padding-inline: 16px;
   max-width: 1320px;
@@ -34,7 +34,7 @@
 
 @media (min-width: 1024px) {
   .ds-container {
-    width: 50%;
+    width: auto;
   }
 }
 
@@ -53,11 +53,15 @@
   .ds-bg-zhry {
     background-color: var(--color-bg-zhry);
   }
+  .ds-bg-ramadiFateh {
+    background-color: var(--color-bg-ramadiFateh);
+  }
   /*colors*/
 
   .ds-text-white {
     color: var(--color--white);
   }
+  /*   --color--text--white*/
   .ds-text-main {
     color: var(--color--main);
   }
@@ -76,5 +80,9 @@
   }
   .ds-text-black {
     color: var(--color--black);
+  }
+
+  .ds-text-ramadi {
+    color: var(--color--text-ramadi);
   }
 }
