@@ -49,6 +49,9 @@
   .ds-bg-form {
     background-color: var(--color-form);
   }
+  .ds-bg-400 {
+    background-color: var(--color-form);
+  }
 
   .ds-bg-zhry {
     background-color: var(--color-bg-zhry);
@@ -56,12 +59,15 @@
   .ds-bg-ramadiFateh {
     background-color: var(--color-bg-ramadiFateh);
   }
+  .ds-bg-alt-200 {
+    background-color: var(--color--bg-alt-200);
+  }
   /*colors*/
 
   .ds-text-white {
     color: var(--color--white);
   }
-  /*   --color--text--white*/
+  /*Text*/
   .ds-text-main {
     color: var(--color--main);
   }
@@ -84,5 +90,10 @@
 
   .ds-text-ramadi {
     color: var(--color--text-ramadi);
+  }
+
+  section,
+  .section {
+    margin: 60px 0;
   }
 }

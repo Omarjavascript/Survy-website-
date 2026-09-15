@@ -11,6 +11,8 @@
     --color-form: #eff0f3;
     --color-bg-zhry: #7616ec;
     --color-bg-ramadiFateh: #efefef;
+    --color--bg-alt-200: #efefef;
+    --color--disabeld: #80828d;
     /*Text Color*/
     --color--white: var(--color--bg--alt);
     --color--main: var(--color--primary);
