@@ -1,11 +1,21 @@
+import React from "react";
+import { dataBox } from "@/shared/components/layout/dataBox";
 import Box from "../melcuers/Box";
-import { dataBox } from "../layout/dataBox";
+import Text from "../atom/Text";
 export default function HowItsWorks() {
   return (
-    <div className="ds-container  grid grid-cols-1 lg:grid-cols-3 gap-5">
-      {dataBox.map((box) => (
-        <Box key={box.id} title={box.title} text={box.text} content={box.id} />
-      ))}
-    </div>
+    <>
+      <Text center={true}>How Its Works</Text>
+      <div className="ds-container section grid grid-cols-1 gap-3  md:grid-cols-3 ">
+        {dataBox.map((box) => (
+          <Box
+            key={box.id}
+            number={box.number}
+            text={box.text}
+            title={box.title}
+          />
+        ))}
+      </div>
+    </>
   );
 }
